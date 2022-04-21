@@ -2,12 +2,40 @@
 
 body {
     margin: 2;
+    background-image: url(sozai/空.jpg);
 }
 
 .top {
     margin: 0;
     padding: 0;
     color: greenyellow;
-    font-family: "游ゴシック";
+    font-family: "メイリオ";
     font-size: 64px;
+}
+
+.logo img {
+    width: 250px;
+    text-align: left;
+}
+
+.uppercontents {
+    display: flex;
+}
+
+.square {
+	width: 230px;
+	height: 420px;
+    margin-left: 10px;
+	background: #0091EA;
+    text-align: center;
+}
+
+.myface img {
+    width: 170px;
+    margin-top: 20px; 
+    border: 2px solid white;
+}
+
+.hovergetcolor {
+    border: 4px solid black;
 }
