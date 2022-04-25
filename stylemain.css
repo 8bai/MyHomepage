@@ -3,6 +3,7 @@
 body {
     margin: 2;
     background-image: url(sozai/空.jpg);
+    position: relative;
 }
 
 .top {
@@ -16,6 +17,20 @@ body {
 .logo img {
     width: 250px;
     text-align: left;
+    float: left;
+}
+
+.humberger {
+    font-size: 100px;
+    text-align: right;
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.clear {
+    clear: both;
 }
 
 .uppercontents {
@@ -36,3 +51,54 @@ body {
     border: 2px solid white;
 }
 
+.bergeryoko {
+    position: fixed;
+    right: -270px;
+    background-color: gray;
+    top: 0;
+    width: 270px;
+    height: 100%;
+    transition: right 0.3s;
+    z-index: 3;
+}
+
+.bergeryoko.open {
+    position: fixed;
+    right: 0px;
+    background-color: gray;
+    top: 0;
+    width: 270px;
+    height: 100%;
+    transition: right 0.3s;
+    z-index: 3;
+}
+
+.batsu {
+    font-size: 60px;
+    text-align: right;
+}
+
+#gototop {
+    width: 200px;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+#goto {
+    text-align: right;
+}
+
+.okimono {
+	width: 230px;
+	height: 1000px;
+    margin-left: 10px;
+	background: black;
+}
+
+.hidden {
+    
+    border: 2px solid white;
+}
